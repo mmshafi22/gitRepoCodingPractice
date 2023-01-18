@@ -1,0 +1,37 @@
+.list-item {
+  background-color: #f8f8ff;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.repo-img {
+  width: 50%;
+}
+.repo-heading {
+  font-family: Roboto;
+  color: #e73959;
+  font-weight: bold;
+  font-size: 100%;
+}
+.count-container {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  align-self: flex-start;
+}
+.count-container img {
+  width: 10%;
+  height: 10%;
+  margin-right: 8px;
+}
+
+@media (min-width: 768px) {
+  .list-item {
+    margin-right: 15px;
+  }
+}

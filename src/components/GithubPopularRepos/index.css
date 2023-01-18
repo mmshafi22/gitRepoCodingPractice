@@ -1,0 +1,54 @@
+.git-bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow-y: auto;
+}
+.git-card-container {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-heading {
+  font-family: Lobster;
+  font-size: 25px;
+  color: #0f172a;
+  font-weight: bold;
+}
+.filter-list-items {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  max-width: 400px;
+}
+.error-img {
+  width: 100%;
+}
+.failure-img {
+  width: 100%;
+  max-width: 1110px;
+}
+.repo-list-items {
+  width: 100%;
+  max-width: 1110px;
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .repo-list-items {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
